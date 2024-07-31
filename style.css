@@ -25,9 +25,25 @@ a {
     display: inline-block;
     text-align: center;
     color: white;
-    text-decoration: none;
     line-height: 200px;
     border-radius: 50%;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    text-indent: -9999px;
+}
+
+.lemon {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+.jamong {
+    color: orangered;
 }
 
 .contents {
