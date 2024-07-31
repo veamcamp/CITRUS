@@ -2,6 +2,11 @@ body {
     margin: unset;
 }
 
+a {
+    color: unset;
+    text-decoration: unset;
+}
+
 .wrapper {
     box-shadow: inset 0 0 20px red;
     width: 960px;
@@ -13,11 +18,16 @@ body {
 }
 
 .header .icon {
-    background-color: dodgerblue;
+    background-color: black;
     width: 200px;
     height: 200px;
     /* 태생이 inline level 요소인 a요소를 block level로 강제! */
     display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    line-height: 200px;
+    border-radius: 50%;
 }
 
 .contents {
