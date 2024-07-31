@@ -9,7 +9,19 @@ body {
 }
 
 .header {
-    box-shadow: inset 0 0 20px blue;
+    box-shadow: inset 0 0 20px gold;
+}
+
+.header .icon {
+    background-color: dodgerblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+
+    /* 태생이 inline level 요소인 a요소를 block level로 강제! */
+    display: block;
 }
 
 .contents {
