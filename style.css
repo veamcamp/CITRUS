@@ -1,5 +1,12 @@
-body {
+/* Resets */
+body, p {
     margin: unset;
+}
+
+h1 {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
 }
 
 a {
@@ -7,14 +14,19 @@ a {
     text-decoration: unset;
 }
 
+/* Layouts */
 .wrapper {
-    box-shadow: inset 0 0 20px red;
     width: 960px;
-    margin: 60px auto;
+    margin: 0 auto;
+}
+
+/* Design */
+body {
+    background-image: url(images/bg.png);
 }
 
 .header {
-    box-shadow: inset 0 0 20px gold;
+    padding: 60px 0;
 }
 
 .header .icon {
@@ -27,27 +39,40 @@ a {
     color: white;
     line-height: 200px;
     border-radius: 50%;
+    vertical-align: top;
 }
 
-.logo {
+.header .icon.logo {
     background-image: url(images/logo.png);
     text-indent: -9999px;
 }
 
-.lemon {
-    color: yellow;
+.header .icon:hover {
+    text-indent: -9999px;
 }
 
-.orange {
-    color: orange;
-}
+.header .icon.lemon        { color: yellow; }
+.header .icon.lemon:hover  { background-image: url(images/lemon.png); }
 
-.jamong {
-    color: orangered;
-}
+.header .icon.orange       { color: orange; }
+.header .icon.orange:hover { background-image: url(images/orange.png); }
+
+.header .icon.jamong       { color: orangered; }
+.header .icon.jamong:hover { background-image: url(images/jamong.png); }
 
 .contents {
-    box-shadow: inset 0 0 20px purple;
+    background-color: white;
+    padding: 60px;
+    border-radius: 60px;
+}
+
+.contents h1 {
+}
+
+.contents h1 span {
+}
+
+.contents p {
 }
 
 .footer {
